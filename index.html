@@ -332,9 +332,9 @@ Click "Generate Defense Pack" or "Load Sample Case" to compile a bank-grade char
               <li>✓ Standard Evidence Pack</li>
             </ul>
           </div>
-          <button onclick="openPaymentFlow(49)" class="mt-6 w-full bg-slate-800 hover:bg-slate-700 text-white py-2 rounded-xl text-xs font-semibold">
-            Pay $49 (Card / USDT)
-          </button>
+          <a href="https://app.lava.top/products/a26d6639-eb45-4bff-a506-dd4eb2758eb9" target="_blank" class="mt-6 w-full text-center block bg-slate-800 hover:bg-slate-700 text-white py-2.5 rounded-xl text-xs font-semibold transition">
+            Pay $49 (Card / Apple Pay)
+          </a>
         </div>
 
         <div class="bg-gradient-to-b from-indigo-950 to-slate-950 border border-indigo-500/50 rounded-2xl p-5 flex flex-col justify-between shadow-lg shadow-indigo-600/20">
@@ -352,24 +352,15 @@ Click "Generate Defense Pack" or "Load Sample Case" to compile a bank-grade char
               <li>✓ Multi-gateway support</li>
             </ul>
           </div>
-          <button onclick="openPaymentFlow(99)" class="mt-6 w-full bg-indigo-600 hover:bg-indigo-500 text-white py-2 rounded-xl text-xs font-semibold shadow-md shadow-indigo-600/30">
-            Pay $99 (Card / USDT)
-          </button>
+          <a href="https://app.lava.top/products/05388c66-a742-4da8-930e-70952e32a5f8" target="_blank" class="mt-6 w-full text-center block bg-indigo-600 hover:bg-indigo-500 text-white py-2.5 rounded-xl text-xs font-semibold shadow-md shadow-indigo-600/30 transition">
+            Pay $99 (Card / Apple Pay)
+          </a>
         </div>
       </div>
 
-      <div id="payment-box" class="mt-5 p-4 rounded-xl bg-slate-950 border border-indigo-500/30 hidden">
-        <h5 class="text-xs font-bold text-white uppercase tracking-wider mb-2">⚡ Direct Checkout Options</h5>
-        <div class="space-y-2 text-xs text-slate-300">
-          <div class="p-2 bg-slate-900 rounded-lg flex items-center justify-between">
-            <span>🪙 <b>USDT (TRC-20):</b> <code id="usdt-wallet" class="text-emerald-400 font-mono">TJ3z9PqL81vM4q...CONNECT_WALLET</code></span>
-            <button onclick="copyWallet()" class="bg-slate-800 px-2 py-1 rounded text-[11px] text-indigo-400 hover:text-indigo-300">Copy</button>
-          </div>
-          <div class="p-2 bg-slate-900 rounded-lg flex items-center justify-between">
-            <span>💳 <b>Bank Card (Visa / Mastercard):</b> Lava.top / Prodamus</span>
-            <a href="https://lava.top" target="_blank" class="bg-indigo-600 px-2 py-1 rounded text-[11px] text-white">Open Link</a>
-          </div>
-        </div>
+      <div class="mt-5 p-4 rounded-xl bg-slate-950 border border-indigo-500/30 text-center">
+        <p class="text-xs text-slate-400">Payments securely processed by Visa, Mastercard, Apple Pay & Google Pay.</p>
+        <p class="text-[11px] text-emerald-400 mt-1">● Instant automatic activation after payment</p>
       </div>
     </div>
   </div>
@@ -425,7 +416,7 @@ Processing Platform: ${data.gateway}
 The evidence compiled below satisfies Visa Compelling Evidence 3.0 (CE 3.0) and Mastercard Dispute Resolution requirements, demonstrating that the cardholder actively participated in this transaction and received the purchased goods/services.
 
 --------------------------------------------------------------------------------
-2. TRANSACTION AUTHENTICATION & DIGITAL FOOTPRINT
+2. TRANSACTION COMPLIANCE & DIGITAL FOOTPRINT
 --------------------------------------------------------------------------------
 At the time of purchase, the following verification metrics were recorded:
 - Cardholder Billing Name: ${data.customer_name}
