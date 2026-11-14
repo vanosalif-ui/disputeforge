@@ -3,7 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DisputeForge — AI Chargeback & Dispute Defense Pack Generator</title>
+  <title>DisputeForge — AI Chargeback & Dispute Defense Pack Generator for Stripe & Shopify</title>
+  <meta name="description" content="Win your Stripe, Shopify, and PayPal chargebacks. Auto-generate bank-grade rebuttal letters and Compelling Evidence 3.0 (CE 3.0) dossiers in 60 seconds.">
+  <meta name="keywords" content="stripe chargeback, shopify dispute, visa compelling evidence 3.0, chargeback rebuttal letter, dispute defense pack, friendly fraud prevention">
+  <link rel="canonical" href="https://vanosalif-ui.github.io/disputeforge/">
+
+  <!-- OpenGraph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DisputeForge — Win Stripe & Shopify Disputes Faster">
+  <meta property="og:description" content="Generate Visa CE 3.0 and Mastercard arbitration-ready rebuttal dossiers. Increase your win rate to 80%+.">
+  <meta property="og:url" content="https://vanosalif-ui.github.io/disputeforge/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Schema.org Software Application Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "DisputeForge",
+    "operatingSystem": "All",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "49.00",
+      "priceCurrency": "USD"
+    },
+    "description": "Automated chargeback evidence and rebuttal generator for Stripe, Shopify Payments, and PayPal merchants based on Visa Compelling Evidence 3.0."
+  }
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -416,7 +444,7 @@ Processing Platform: ${data.gateway}
 The evidence compiled below satisfies Visa Compelling Evidence 3.0 (CE 3.0) and Mastercard Dispute Resolution requirements, demonstrating that the cardholder actively participated in this transaction and received the purchased goods/services.
 
 --------------------------------------------------------------------------------
-2. TRANSACTION COMPLIANCE & DIGITAL FOOTPRINT
+2. TRANSACTION AUTHENTICATION & DIGITAL FOOTPRINT
 --------------------------------------------------------------------------------
 At the time of purchase, the following verification metrics were recorded:
 - Cardholder Billing Name: ${data.customer_name}
